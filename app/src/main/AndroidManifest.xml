@@ -14,10 +14,7 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".Work62"
-            android:exported="false" />
-        <activity
-            android:name=".Work61"
+            android:name=".Work524"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
