@@ -5,9 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Work525">
+
     <com.hahaha.myapplication.Work525Draw
+        android:id="@+id/work525Draw"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
     </com.hahaha.myapplication.Work525Draw>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
