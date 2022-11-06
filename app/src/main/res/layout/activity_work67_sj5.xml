@@ -4,32 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Work6_7_sj_4">
+    android:padding="50dp"
+    tools:context=".Work6_7_sj_5">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-    </TextView>
+    </EditText>
 
-    <Button
-        android:id="@+id/start"
+    <EditText
+        android:id="@+id/num2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="启动服务"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/stop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="暂停服务"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="比较"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
 </androidx.constraintlayout.widget.ConstraintLayout>

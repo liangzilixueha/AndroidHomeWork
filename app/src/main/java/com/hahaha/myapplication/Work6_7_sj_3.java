@@ -48,7 +48,7 @@ public class Work6_7_sj_3 extends AppCompatActivity {
             return false;
         }
     });
-    private boolean flag = true;
+    private boolean flag = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
