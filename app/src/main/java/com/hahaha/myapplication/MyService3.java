@@ -15,6 +15,11 @@ public class MyService3 extends Service {
         public int add(int a, int b) throws RemoteException {
             return a + b;
         }
+
+        @Override
+        public long nowTime() throws RemoteException {
+            return System.currentTimeMillis();
+        }
     };
 
     public IBinder onBind(Intent intent) {

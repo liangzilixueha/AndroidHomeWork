@@ -9,4 +9,5 @@ interface IMyAidlInterface {
      * and return values in AIDL.
      */
     int add(int a, int b);
+    long nowTime();
 }
